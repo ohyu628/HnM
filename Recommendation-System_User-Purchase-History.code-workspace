@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Recommendation-System_User-Purchase-History",
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
