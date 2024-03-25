@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/login.css">
+    <script src="../static/js/login.js"></script>
+  </head>
+<body>
+    <div class="cotn_principal">
+        <div class="cont_centrar">
+        
+          <div class="cont_login">
+        <div class="cont_info_log_sign_up">
+              <div class="col_md_login">
+        <div class="cont_ba_opcitiy">
+                
+                <h2>LOGIN</h2>  
+          <p>Member Login</p>
+          <button class="btn_login" onclick="change_to_login()">LOGIN</button>
+          </div>
+          </div>
+        <div class="col_md_sign_up">
+        <div class="cont_ba_opcitiy">
+          <h2>SIGN UP</h2>
+        
+          
+          <p>Don't have an account?</p>
+        
+          <button class="btn_sign_up" onclick="change_to_sign_up()">SIGN UP</button>
+        </div>
+          </div>
+              </div>
+        
+            
+            <div class="cont_back_info">
+              <div class="cont_img_back_black">
+              <img src="https://about.hm.com/content/dam/hmabout/groupsite/images/article/2023/august/2018_STUDIO_1952x1206.jpg/_jcr_content/renditions/cq5dam.web.976.603.jpeg" alt="" />
+              </div>
+              
+            </div>
+        <div class="cont_forms" >
+            
+            <div class="cont_img_back_">
+              <img src="https://about.hm.com/content/dam/hmabout/groupsite/images/article/2023/september/7228-Top-image-MUP-1952x1206.jpg/_jcr_content/renditions/cq5dam.web.976.603.jpeg" alt="" />
+            </div>
+        
+        <div class="cont_form_login">
+        <a href="#" onclick="hidden_login_and_sign_up()"></a>
+          <form action="/login" method="post">
+            <h2>LOGIN</h2>
+            <input type="text" name="username" placeholder="User Id" />
+            <input type="password" name="password" placeholder="Password" />
+            <button id="btn_login" class="btn_login" type="submit">LOGIN</button>
+        </form>
+    
+        </div>
+          
+        <div class="cont_form_sign_up">
+        <a href="#" onclick="hidden_login_and_sign_up()" action="/membership" method="post"></a>
+        <form action="/membership" method="post">
+            <h2>SIGN UP</h2>
+          <input type="text" name="username" placeholder="User Id" />
+          <input type="password" name="password" placeholder="Password" />
+          <input type="text" name="address" placeholder="Address" />
+          <input type="text" name="age" placeholder="Age" />
+          <button id="btn_sign_up" class="btn_sign_up"  type="submit">SIGN UP</button>
+        </form>
+        </div>
+        
+            </div>
+            
+          </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userhomepage</title>
+    <link rel="stylesheet" href="../static/css/userhome.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<div class="page">
+    <nav id="header">
+        <div class="shopping-cart">
+            <form action="/mypage" method="get" class="menu-link">
+                <button type="submit" value="mypage" class="material-icons">home</button>
+            </form>
+
+            <form action="/logout" method="get" class="menu-link">
+                <button type="submit" value="logout" class="material-icons">logout</button>
+            </form>
+
+            
+        </div>
+    </nav>
+    <main id="content">
+        <p>
+            <form action="/userhome" method="get">
+                <label for="hm_submit" style="cursor: pointer;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/640px-H%26M-Logo.svg.png" height="100px">
+                    <input id="hm_submit" type="submit" value="H&M" style="display: none;">
+                </label>
+            </form>
+            <br><br>
+  안녕하세요 {{username}}님 <br><br>
+</p>
+    </main>
+</div>
+<script src="../static/js/homepage.js"></script>
+</body>
+</html>
+
+
+
+
+

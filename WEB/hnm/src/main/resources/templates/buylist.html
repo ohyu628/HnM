@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buylist</title>
+    <link rel="stylesheet" href="../static/css/buylist.css">
+</head>
+<body>
+
+    <div class="portfolio-title">
+        <div class="section-title">
+          <h1>Order List</h1>
+          <div class="separator"></div>
+          <p>{{username}}</p>
+          <p>구매 내역</p>
+        </div>
+      </div>
+      
+      <div id="filters" class="portfolio-filters">
+        <ul class="list-inline">
+                  <li><a id="all" href="#" data-filter="*" class="active" button="/buylist"><h5>ORDER LIST</h5></a></li>
+                  <li><a href="#" data-filter=".branding" class="nonactive" button="/ai"><h5>You may also like</h5></a></li>
+                  <li><form action="/userhome" method="get" class="nonactive">
+                    <button type="submit"><h5>HOME</h5></button></form></li>
+                  <li><form action="/logout" method="get" class="nonactive">
+                    <button type="submit"><h5>LOGOUT</h5></button></form></li>
+                </ul>
+      </div>
+      
+      <div id="OrderList" class="orderlist">
+        
+        <!-- portfolio item-->
+        <div class="portfolio-item branding">
+          <div class="portfolio-image">
+            <img src="https://lp2.hm.com/hmgoepprod?set=source[/4a/9a/4a9a0d27d830b750cbd8d290a7b39544f35b347c.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/style]" alt="image" />
+          </div>
+          <a href="#">
+            <div class="project-overlay">
+              <div class="project-info">
+                <i class="fa fa-search"></i>
+                <h3 class="project-name">name 1</h3>
+                <p>₩10,000</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- /portfolio item-->
+        
+        <!-- portfolio item-->
+        <div class="portfolio-item branding design">
+          <div class="portfolio-image">
+            <img src="https://lp2.hm.com/hmgoepprod?set=source[/93/d3/93d3313385b9510ef275570fd318f81270269a16.jpg],origin[dam],category[ladies_tops_longsleeve],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/style]" alt="image" />
+          </div>
+          <a href="#">
+            <div class="project-overlay">
+              <div class="project-info">
+                <i class="fa fa-search"></i>
+                <h3 class="project-name">name 2</h3>
+                <p>₩10,000</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- /portfolio item-->
+        
+        <!-- portfolio item-->
+        <div class="portfolio-item design">
+          <div class="portfolio-image">
+            <img src="https://lp2.hm.com/hmgoepprod?set=source[/1a/e4/1ae4bc47dd4d1145fc5d980f176ab85fd448bd67.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]" alt="image" />
+          </div>
+          <a href="#">
+            <div class="project-overlay">
+              <div class="project-info">
+                <i class="fa fa-search"></i>
+                <h3 class="project-name">name 3</h3>
+                <p>₩10,000</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- /order item-->
+        
+        <!-- order item-->
+        <div class="portfolio-item design">
+          <div class="portfolio-image">
+            <img src="https://lp2.hm.com/hmgoepprod?set=source[/12/35/12350f50df9a0afa25352b77c44ea35e95db0237.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]" />
+          </div>
+          <a href="#">
+            <div class="project-overlay">
+              <div class="project-info">
+                <i class="fa fa-search"></i>
+                <h3 class="project-name">name 4</h3>
+                <p>₩10,000</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- /portfolio item-->
+        <div class="portfolio-item design">
+          <div class="portfolio-image">
+            <img src="https://lp2.hm.com/hmgoepprod?set=source[/17/e2/17e229187dc8e694743653319a50740b1fd3778c.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]" alt="image" />
+          </div>
+          <a href="#">
+            <div class="project-overlay">
+              <div class="project-info">
+                <i class="fa fa-search"></i>
+                <h3 class="project-name">name 5</h3>
+                <p>₩10,000</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+
+      <script src="../static/"></script>
+</body>
+</html>
