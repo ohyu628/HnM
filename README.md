@@ -1,11 +1,22 @@
-# HNM 사용자 구매정보 데이터로 추천시스템
+# HnM 사용자 구매정보 데이터로 추천시스템
 ![alt text](image.png)
-# Team
-- 지민철
-- 김수연
-- 정모은
-- 최재웅
-- 오유빈
+<br/>
+
+## Team
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/suddy78"><img src="https://avatars.githubusercontent.com/u/113496210?v=4" width="100px;" alt=""/><br /><sub><b>김수연</b></sub></a></td>
+      <td align="center"><a href="https://github.com/jmeagnes"><img src="https://avatars.githubusercontent.com/u/151423959?v=4" width="100px;" alt=""/><br /><sub><b>정모은</b></sub></a></td>
+      <td align="center"><a href="https://github.com/jiminchur"><img src="https://avatars.githubusercontent.com/u/145955453?v=4" width="100px;" alt=""/><br /><sub><b>지민철</b></sub></a></td>
+      <td align="center"><a href="https://github.com/ohyu628"><img src="https://avatars.githubusercontent.com/u/154876483?v=4" width="100px;" alt=""/><br /><sub><b>오유빈</b></sub></a></td>
+      <td align="center"><a href="https://github.com/jaechoi97"><img src="https://avatars.githubusercontent.com/u/145918829?v=4" width="100px;" alt=""/><br /><sub><b>최재웅</b></sub></a></td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+<br/>
+
 # Use Tech
 
 # 전체 프로젝트 일정
